@@ -1,15 +1,10 @@
 # code_till_you_drop
-APCS Lab
-
-#Queue methods  
-enqueue()  
-dequeue()  
-peekFront()  
+APCS Lab 02: All Hands on Dequeue!
   
-#Deque  
-addFirst()  
-addLast()  
-removeFirst()  
-removeLast()  
-peekFront()  
-peekLast()  
+# Deque methods  
+`addFirst()`  
+`addLast()`  
+`removeFirst()`  
+`removeLast()`  
+`peekFront()`  
+`peekLast()`  
