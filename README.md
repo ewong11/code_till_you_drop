@@ -2,6 +2,7 @@
 APCS Lab 02: All Hands on Dequeue!
   
 # Deque methods  
+`size()`
 `addFirst()`  
 `addLast()`  
 `removeFirst()`  
