@@ -1,7 +1,8 @@
 # code_till_you_drop
-APCS Lab 02: All Hands on Dequeue!
+APCS Lab 02: All Hands on Deque!
   
 # Deque methods  
+`size()`
 `addFirst()`  
 `addLast()`  
 `removeFirst()`  
