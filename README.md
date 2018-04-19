@@ -3,7 +3,7 @@ Colin Hosking, Aaron Li, Shruthi Venkata
 APCS Lab 02: All Hands on Deque!
 
 # To Do List:
-1. Obtain DLNode class in repo
+1. Obtain DLLNode class in repo
 1. Write interface Deque
 2. Implement methods (see below for priority), always maintaining functionality.
 3. Create main method to test functionality
