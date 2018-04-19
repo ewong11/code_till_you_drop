@@ -24,4 +24,6 @@ public interface Deque<T> {
 
      // Return the size of the queue
      public int size();
+     // Returns whether or not queue is empty
+     public boolean isEmpty();
 }
