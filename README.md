@@ -9,14 +9,14 @@ APCS Lab 02: All Hands on Deque!
 3. Create main method to test functionality
 
 # Deque methods(in order of priority for implementation)
-`1) size()`  
-`2) isEmpty()`  
-`3) addFirst()`  
-`4) addLast()`    
-`5) removeFirst()`    
-`6) removeLast()`    
-`7) peekFront()`    
-`8) peekLast()`     
+1) `size()`  
+2) `isEmpty()`  
+3) `addFirst()`  
+4) `addLast()`    
+5) `removeFirst()`    
+6) `removeLast()`    
+7) `peekFront()`    
+8) `peekLast()`     
 
 # Architecture Options
   Our team has opted to use the DLLNode(doubly linked list) because it offers a two way linkage. Double-ended queue means that one can enqueue and dequeue from both ends, which is why DLLNodes make the most sense. The node structure points both ways, allowing for a more logical implementation for Deque.
