@@ -49,6 +49,9 @@ public class QQCachoo<T> implements Deque<T> {
      public T removeFirst() {
           T ret = null;
           if (this.isEmpty()) return null; //SPECIAL CASE if empty: return null
+          if (_size == 1){ //if size == 1, Deque will be empty after remove
+              _front = _end = null;
+          }
           else {
                ret = _front.getCargo();
                _front = _front.getNext();
@@ -60,6 +63,9 @@ public class QQCachoo<T> implements Deque<T> {
      public T removeLast() {
           T ret = null;
           if (this.isEmpty()) return null; //SPECIAL CASE if empty: return null
+          if (_size == 1){ //if size == 1, Deque will be empty after remove
+              _front = _end = null;
+          }
           else {
                ret = _end.getCargo(); //store cargo
                _end = _end.getPrev(); 
