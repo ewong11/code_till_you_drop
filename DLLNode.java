@@ -1,3 +1,8 @@
+//Team CodeTillYouDrop: Colin Hosking, Aaron Li, Shruthi Venkata
+//APCS02 pd08
+//Lab02 -- All Hands on Deque!
+//2018-04-20
+
 /*****************************************************
  * class DLLNode
  * Implements a node, for use in lists and other container classes.
