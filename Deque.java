@@ -13,9 +13,9 @@ Interface Deque
 public interface Deque<T> {
 
      // Get the node at the front
-     public T getFront();
+     public T peekFront();
      // Get the node at the end
-     public T getLast();
+     public T peekLast();
 
      // Enqueue a node to the front of the queue
      public void addFirst(T inp);

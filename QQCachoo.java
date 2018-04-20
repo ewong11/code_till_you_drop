@@ -1,4 +1,4 @@
-//Team CodeTillYouDrop: Colin Hosking, Aaron Li, Shruthi Venkata
+//Team code_till_you_drop (Shruthi Venkata, Colin Hosking, Aaron Li)
 //APCS02 pd08
 //Lab02 -- All Hands on Deque!
 //2018-04-20
@@ -68,6 +68,23 @@ public class QQCachoo<T> implements Deque<T> {
           return ret;
      }
 
-
+	 public T peekFront() {
+		return _front.getCargo();
+		}
+		
+	 public T peekLast() {
+		return _end.getCargo();
+		}
+		
+	 public String toString() {
+		String retStr = "HEAD->";
+		DLLNode<T> tmp = _front; //init tr
+		while( tmp != null ) {
+			retStr += tmp.getCargo() + "->";
+			tmp = tmp.getNext();
+		}
+		retStr += "NULL";
+		return retStr;
+	}
 
 }
